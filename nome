@@ -1,0 +1,82 @@
+introdução da função ()
+
+Gui para Lua
+
+Versão: 3.2
+
+Instâncias:
+
+local ScreenGui = Instance.new ("ScreenGui")
+Quadro local = Instance.new ("Quadro")
+local TextLabel = Instance.new ("TextLabel")
+
+--Propriedades:
+
+ScreenGui.Parent = game.Players.LocalPlayer: WaitForChild ("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB (255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new (0, 0, 0.899999976, 0)
+Frame.Size = UDim2.new (0, 330, 0, 191)
+
+TextLabel.Parent = Quadro
+TextLabel.BackgroundColor3 = Color3.fromRGB (255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 3
+TextLabel.Position = UDim2.new (-10, 0, 0.158000007, 0)
+TextLabel.Size = UDim2.new (0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Hub Vortex"
+TextLabel.TextColor3 = Color3.fromRGB (255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel. TextStrokeTransparency = 0.500
+
+Scripts:
+função local SXVR_fake_script () -
+Script TextLabel.LocalScript local = Instance.new ('LocalScript', TextLabel)
+
+t local = 4; - quanto tempo leva para atravessar o arco-íris
+enquanto wait () faz
+matiz local = tick ()% t / t
+cor local = Color3.fromHSV (matiz, 1, 1)
+script.Parent.TextColor3 = color
+fim
+
+fim
+coroutine.wrap (SXVR_fake_script) ()
+função local ZHGMMIU_fake_script () -
+script TextLabel.LocalScript local = Instance.new ('LocalScript', TextLabel)
+
+script.Parent: TweenPosition (UDim2.new (0.5, -170,0,0), "In", "Quad", 0,5)
+Aguarde (4)
+script.Parent: TweenPosition (UDim2.new (0.5, -600,0,0), "In", "Quad", 0,5)
+aguarde (2)
+--script.Parent.Parent: Remove ( )
+fim
+coroutine.wrap (ZHGMMIU_fake_script) ()
+fim
+introdução ()
+
+função nameprotect ()
+game.CoreGui.RobloxGui.TopBarContainer.NameHealthContainer.Username.Text = "NameProtect"
+game.Players.LocalPlayer.Name = "NameProtect"
+game.Players.LocalPlayer.Character.Name = "NameProtect01"
+fim
+nameprotect ()
+
+função antiafk ()
+spawn (function ()
+enquanto espera (3)
+local vu = jogo: GetService ("VirtualUser")
+jogo: GetService ("Players"). LocalPlayer.Idled: connect (function ()
+vu: Button2Down (Vector2.new (0,0), o Espaço de trabalho.CurrentCamera.CFrame)
+aguarde (1)
+vu: Button2Up (Vector2.new (0,0), o Espaço de trabalho.CurrentCamera.CFrame)
+FIM)
+espera (60000000000000000)
+FIM
+FIM)
+FIM
+antiafk ()
