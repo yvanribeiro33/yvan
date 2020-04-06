@@ -60,9 +60,9 @@ fim
 introdução ()
 
 função nameprotect ()
-game.CoreGui.RobloxGui.TopBarContainer.NameHealthContainer.Username.Text = "NameProtecat001"
-game.Players.LocalPlayer.Name = "NameProtect001"
-game.Players.LocalPlayer.Character.Name = "NameProtect001"
+game.CoreGui.RobloxGui.TopBarContainer.NameHealthContainer.Username.Text = "NameProtecat"
+game.Players.LocalPlayer.Name = "NameProtect"
+game.Players.LocalPlayer.Character.Name = "NameProtect"
 fim
 nameprotect ()
 
