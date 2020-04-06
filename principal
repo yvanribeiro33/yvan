@@ -1,7 +1,7 @@
 local place = game.PlaceId
 
 spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/yvanribeiro33/yvan/39c90271eca755ef4a4c841b49c2fbe48397a0d6/nome", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yvanribeiro33/yvan/master/nome", true))()
 end)
 if place == 4443032907 then -- https://www.roblox.com/games/4443032907/NEW-Sword-Simulator
 print("Loaded GUI")
